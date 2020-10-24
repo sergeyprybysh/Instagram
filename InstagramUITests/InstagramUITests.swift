@@ -2,7 +2,7 @@
 //  InstagramUITests.swift
 //  InstagramUITests
 //
-//  Created by Katsiaryna Mashokha on 10/21/20.
+//  Created by Sergey Prybysh on 10/21/20.
 //
 
 import XCTest
