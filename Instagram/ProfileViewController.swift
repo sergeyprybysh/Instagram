@@ -22,6 +22,10 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
         collectionView.dataSource = self
         getCurrentUser()
         userNameLabel.text = currentUser["username"] as? String
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
         getUserPosts()
     }
     
